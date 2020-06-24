@@ -2363,7 +2363,7 @@ function mousePressed(){
   			setup();
 		}
 		if (dist_to_rand < 60){
-			new_job = floor(random(0,500));
+			new_job = Math.floor(random(0,500));
 			final = new_job;
 		}
   	}
